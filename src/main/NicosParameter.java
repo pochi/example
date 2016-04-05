@@ -1,9 +1,13 @@
+package pochi.examples;
+
+import twitter4j.util.*;
+
 /*
 *
 * 1. Javaで実行する
 *
-*    >>> javac src/main/NicosParameter.java
-*    >>> java -cp src/main NicosParameter
+*    >>> javac -classpath lib/*jar -d classes src/main/NicosParameter.java
+*    >>> java -cp classes/ pochi.examples.NicosParameter
 *
 * 2. jarを組み込む
 * 3. 引数呼び出す
